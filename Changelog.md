@@ -1,3 +1,23 @@
+#v80 (2018/01/26)
+
+* Address lin/vet feedback.
+
+#v79 (2017/02/01)
+
+* Fixes #531: fullPackageInDir didn't capture the error from fillPackage()
+
+#v78 (2017/01/19)
+
+* Don't use build.ImportDir when discovering packages for the package spec. Fixes #529
+
+#v77 (2017/01/13)
+
+* Don't include quotes around hg revisions
+
+#v76 (2017/01/10)
+
+* Default to vendor being on unless older go versions.
+
 #v75 (2016/11/02)
 
 * Add "AUTHORS" and "CONTRIBUTORS" to legal files list: https://github.com/tools/godep/pull/522
